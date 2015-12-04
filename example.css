@@ -1,0 +1,29 @@
+@import '.';
+
+.toggle-display {
+  margin-left: 2rem;
+}
+
+.toggle-display[data-display="open"] .toggle-display__link {
+  border-right: 1px solid white;
+}
+
+.sharebar {
+  background-color: #e3120b;
+}
+
+.sharebar__icons {
+  display: table;
+}
+
+.sharebar__icon {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 0;
+}
+
+.toggle-display__link use,
+.sharebar__icon use {
+  fill: white;
+}
