@@ -5,12 +5,15 @@
 }
 
 .toggle-display__button {
+  width: 49px;
+  height: 49px;
   outline: none;
   border: 0 none;
   padding: 0;
   display: inline-block;
   cursor: pointer;
   background-color: var(--toggle-display__button--background-color, var(--color-economist));
+  line-height: 0;
 }
 
 .toggle-display__button use {
@@ -25,14 +28,14 @@
   fill: var(--toggle-display__button--hover---icon--fill, white);
 }
 
-[data-display="open"] .toggle-display__button,
-[data-display="open"] .toggle-display__button use {
+.toggle-display[data-display="open"] .toggle-display__button,
+.toggle-display[data-display="open"] .toggle-display__button use {
   background-color: var(--toggle-display--active--toggle-display__button--background-color, var(--color-kiev));
   fill: var(--toggle-display--active--toggle-display__button--icon--fill, white);
 }
 
-[data-display="open"] .toggle-display__button:hover,
-[data-display="open"] .toggle-display__button:hover use {
+.toggle-display[data-display="open"] .toggle-display__button:hover,
+.toggle-display[data-display="open"] .toggle-display__button:hover use {
   background-color: var(--toggle-display--active--toggle-display__button--hover--background-color, var(--color-kiev));
   fill: var(--toggle-display--active--toggle-display__button--hover---icon--fill, white);
 }
