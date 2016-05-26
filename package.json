@@ -138,7 +138,7 @@
   "devDependencies": {
     "@economist/component-devpack": "^3.5.0",
     "@economist/component-icon": "^3.6.6",
-    "babel": "^5.8.23",
+    "babel": "^6.3.26",
     "babel-eslint": "^6.0.4",
     "babelify": "^6.3.0",
     "browser-sync": "^2.12.7",
